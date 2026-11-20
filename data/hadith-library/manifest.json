@@ -1,0 +1,1766 @@
+{
+  "importedAt": "2026-11-20T18:40:38.173Z",
+  "datasetVersion": "AhmedBaset/hadith-json@main + fawazahmed0/hadith-api@1",
+  "totalImportedCount": 19081,
+  "totalPropheticCount": 18084,
+  "totalAtharOrIntroCount": 997,
+  "books": [
+    {
+      "bookId": "bukhari",
+      "bookTitle": "صحيح البخاري",
+      "primarySourceName": "AhmedBaset/hadith-json (db/by_book/the_9_books)",
+      "primarySourceUrl": "https://cdn.jsdelivr.net/gh/AhmedBaset/hadith-json@main/db/by_book/the_9_books/bukhari.json",
+      "primarySourceVersion": "AhmedBaset/hadith-json@main",
+      "expectedCountPrimary": 7277,
+      "importedCount": 7277,
+      "emptyOrMissingInPrimary": 0,
+      "secondarySourceName": "fawazahmed0/hadith-api",
+      "secondarySourceUrl": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari.min.json",
+      "secondarySourceVersion": "fawazahmed0/hadith-api@1",
+      "expectedCountSecondary": 7589,
+      "secondaryNonEmptyCount": 7580,
+      "secondaryEmptyCount": 9,
+      "emptyNumbersSecondarySample": [
+        5710,
+        5711,
+        5712,
+        5774,
+        5775,
+        6074,
+        6075,
+        6174,
+        6175
+      ],
+      "matchedWithSecondaryCount": 7277,
+      "ungradedCount": 0,
+      "propheticHadithCount": 6756,
+      "atharOrIntroCount": 521,
+      "completenessStatus": "complete_primary_with_secondary_gaps",
+      "statusNote": "تم استيراد جميع السجلات المتوفرة في النسخة الأساسية (7277 / 7277) دون حذف أو اختصار. تنبيه المطابقة مع النسخة المساندة (دار السلام/fawazahmed0): يوجد 9 رقماً فارغ النص في النسخة المساندة من أصل 7589."
+    },
+    {
+      "bookId": "muslim",
+      "bookTitle": "صحيح مسلم",
+      "primarySourceName": "AhmedBaset/hadith-json (db/by_book/the_9_books)",
+      "primarySourceUrl": "https://cdn.jsdelivr.net/gh/AhmedBaset/hadith-json@main/db/by_book/the_9_books/muslim.json",
+      "primarySourceVersion": "AhmedBaset/hadith-json@main",
+      "expectedCountPrimary": 7459,
+      "importedCount": 7459,
+      "emptyOrMissingInPrimary": 0,
+      "secondarySourceName": "fawazahmed0/hadith-api",
+      "secondarySourceUrl": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim.min.json",
+      "secondarySourceVersion": "fawazahmed0/hadith-api@1",
+      "expectedCountSecondary": 7563,
+      "secondaryNonEmptyCount": 7360,
+      "secondaryEmptyCount": 203,
+      "emptyNumbersSecondarySample": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "matchedWithSecondaryCount": 7315,
+      "ungradedCount": 0,
+      "propheticHadithCount": 7058,
+      "atharOrIntroCount": 401,
+      "completenessStatus": "complete_primary_with_secondary_gaps",
+      "statusNote": "تم استيراد جميع السجلات المتوفرة في النسخة الأساسية (7459 / 7459) دون حذف أو اختصار. تنبيه المطابقة مع النسخة المساندة (دار السلام/fawazahmed0): يوجد 203 رقماً فارغ النص في النسخة المساندة من أصل 7563."
+    },
+    {
+      "bookId": "ibnmajah",
+      "bookTitle": "سنن ابن ماجه",
+      "primarySourceName": "AhmedBaset/hadith-json (db/by_book/the_9_books)",
+      "primarySourceUrl": "https://cdn.jsdelivr.net/gh/AhmedBaset/hadith-json@main/db/by_book/the_9_books/ibnmajah.json",
+      "primarySourceVersion": "AhmedBaset/hadith-json@main",
+      "expectedCountPrimary": 4345,
+      "importedCount": 4345,
+      "emptyOrMissingInPrimary": 0,
+      "secondarySourceName": "fawazahmed0/hadith-api",
+      "secondarySourceUrl": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-ibnmajah.min.json",
+      "secondarySourceVersion": "fawazahmed0/hadith-api@1",
+      "expectedCountSecondary": 4343,
+      "secondaryNonEmptyCount": 4338,
+      "secondaryEmptyCount": 5,
+      "emptyNumbersSecondarySample": [
+        1928,
+        1929,
+        1955,
+        2490,
+        2497
+      ],
+      "matchedWithSecondaryCount": 4338,
+      "ungradedCount": 8,
+      "propheticHadithCount": 4270,
+      "atharOrIntroCount": 75,
+      "completenessStatus": "complete_primary_with_secondary_gaps",
+      "statusNote": "تم استيراد جميع السجلات المتوفرة في النسخة الأساسية (4345 / 4345) دون حذف أو اختصار. تنبيه المطابقة مع النسخة المساندة (دار السلام/fawazahmed0): يوجد 5 رقماً فارغ النص في النسخة المساندة من أصل 4343. يوجد 8 سجل لم يرد لها حكم درجة صريح في النسخة المساندة."
+    }
+  ],
+  "chaptersByBook": {
+    "bukhari": [
+      {
+        "bookId": "bukhari",
+        "chapterId": 1,
+        "chapterName": "كتاب بدء الوحى",
+        "count": 7
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 2,
+        "chapterName": "كتاب الإيمان",
+        "count": 51
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 3,
+        "chapterName": "كتاب العلم",
+        "count": 76
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 4,
+        "chapterName": "كتاب الوضوء",
+        "count": 113
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 5,
+        "chapterName": "كتاب الغسل",
+        "count": 45
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 6,
+        "chapterName": "كتاب الحيض",
+        "count": 37
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 7,
+        "chapterName": "كتاب التيمم",
+        "count": 15
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 8,
+        "chapterName": "كتاب الصلاة",
+        "count": 167
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 9,
+        "chapterName": "كتاب مواقيت الصلاة",
+        "count": 77
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 10,
+        "chapterName": "كتاب الأذان",
+        "count": 266
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 11,
+        "chapterName": "كتاب الجمعة",
+        "count": 65
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 12,
+        "chapterName": "كتاب صلاة الخوف",
+        "count": 6
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 13,
+        "chapterName": "كتاب العيدين",
+        "count": 37
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 14,
+        "chapterName": "كتاب الوتر",
+        "count": 15
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 15,
+        "chapterName": "كتاب الاستسقاء",
+        "count": 34
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 16,
+        "chapterName": "كتاب الكسوف",
+        "count": 24
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 17,
+        "chapterName": "كتاب سجود القرآن",
+        "count": 13
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 18,
+        "chapterName": "كتاب التقصير",
+        "count": 39
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 19,
+        "chapterName": "كتاب التهجد",
+        "count": 63
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 20,
+        "chapterName": "كتاب فضل الصلاة فى مسجد مكة والمدينة",
+        "count": 9
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 21,
+        "chapterName": "كتاب العمل فى الصلاة",
+        "count": 27
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 22,
+        "chapterName": "كتاب السهو",
+        "count": 14
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 23,
+        "chapterName": "كتاب الجنائز",
+        "count": 148
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 24,
+        "chapterName": "كتاب الزكاة",
+        "count": 112
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 25,
+        "chapterName": "كتاب الحج",
+        "count": 247
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 26,
+        "chapterName": "كتاب العمرة",
+        "count": 30
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 27,
+        "chapterName": "كتاب المحصر",
+        "count": 15
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 28,
+        "chapterName": "كتاب جزاء الصيد",
+        "count": 46
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 29,
+        "chapterName": "كتاب فضائل المدينة",
+        "count": 24
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 30,
+        "chapterName": "كتاب الصوم",
+        "count": 112
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 31,
+        "chapterName": "كتاب صلاة التراويح",
+        "count": 6
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 32,
+        "chapterName": "كتاب فضل ليلة القدر",
+        "count": 11
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 33,
+        "chapterName": "كتاب الاعتكاف",
+        "count": 21
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 34,
+        "chapterName": "كتاب البيوع",
+        "count": 184
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 35,
+        "chapterName": "كتاب السلم",
+        "count": 16
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 36,
+        "chapterName": "كتاب الشفعة",
+        "count": 3
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 37,
+        "chapterName": "كتاب الإجارة",
+        "count": 25
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 38,
+        "chapterName": "كتاب الحوالات",
+        "count": 3
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 39,
+        "chapterName": "كتاب الكفالة",
+        "count": 9
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 40,
+        "chapterName": "كتاب الوكالة",
+        "count": 18
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 41,
+        "chapterName": "كتاب المزارعة",
+        "count": 28
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 42,
+        "chapterName": "كتاب المساقاة",
+        "count": 31
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 43,
+        "chapterName": "كتاب فى الاستقراض",
+        "count": 24
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 44,
+        "chapterName": "كتاب الخصومات",
+        "count": 15
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 45,
+        "chapterName": "كتاب فى اللقطة",
+        "count": 15
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 46,
+        "chapterName": "كتاب المظالم",
+        "count": 43
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 47,
+        "chapterName": "كتاب الشركة",
+        "count": 22
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 48,
+        "chapterName": "كتاب الرهن",
+        "count": 8
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 49,
+        "chapterName": "كتاب العتق",
+        "count": 41
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 50,
+        "chapterName": "كتاب المكاتب",
+        "count": 6
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 51,
+        "chapterName": "كتاب الهبة وفضلها والتحريض عليها",
+        "count": 68
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 52,
+        "chapterName": "كتاب الشهادات",
+        "count": 50
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 53,
+        "chapterName": "كتاب الصلح",
+        "count": 20
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 54,
+        "chapterName": "كتاب الشروط",
+        "count": 24
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 55,
+        "chapterName": "كتاب الوصايا",
+        "count": 44
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 56,
+        "chapterName": "كتاب الجهاد والسير",
+        "count": 294
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 57,
+        "chapterName": "كتاب فرض الخمس",
+        "count": 63
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 58,
+        "chapterName": "كتاب الجزية والموادعة",
+        "count": 30
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 59,
+        "chapterName": "كتاب بدء الخلق",
+        "count": 131
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 60,
+        "chapterName": "كتاب أحاديث الأنبياء",
+        "count": 154
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 61,
+        "chapterName": "كتاب المناقب",
+        "count": 151
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 62,
+        "chapterName": "كتاب فضائل أصحاب النبى صلى الله عليه وسلم",
+        "count": 120
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 63,
+        "chapterName": "كتاب مناقب الأنصار",
+        "count": 172
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 64,
+        "chapterName": "كتاب المغازى",
+        "count": 488
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 65,
+        "chapterName": "كتاب التفسير",
+        "count": 499
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 66,
+        "chapterName": "كتاب فضائل القرآن",
+        "count": 87
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 67,
+        "chapterName": "كتاب النكاح",
+        "count": 183
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 68,
+        "chapterName": "كتاب الطلاق",
+        "count": 95
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 69,
+        "chapterName": "كتاب النفقات",
+        "count": 22
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 70,
+        "chapterName": "كتاب الأطعمة",
+        "count": 95
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 71,
+        "chapterName": "كتاب العقيقة",
+        "count": 9
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 72,
+        "chapterName": "كتاب الذبائح والصيد",
+        "count": 69
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 73,
+        "chapterName": "كتاب الأضاحي",
+        "count": 30
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 74,
+        "chapterName": "كتاب الأشربة",
+        "count": 65
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 75,
+        "chapterName": "كتاب المرضى",
+        "count": 37
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 76,
+        "chapterName": "كتاب الطب",
+        "count": 93
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 77,
+        "chapterName": "كتاب اللباس",
+        "count": 185
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 78,
+        "chapterName": "كتاب الأدب",
+        "count": 250
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 79,
+        "chapterName": "كتاب الاستئذان",
+        "count": 75
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 80,
+        "chapterName": "كتاب الدعوات",
+        "count": 106
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 81,
+        "chapterName": "كتاب الرقاق",
+        "count": 181
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 82,
+        "chapterName": "كتاب القدر",
+        "count": 26
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 83,
+        "chapterName": "كتاب الأيمان والنذور",
+        "count": 84
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 84,
+        "chapterName": "كتاب كفارات الأيمان",
+        "count": 15
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 85,
+        "chapterName": "كتاب الفرائض",
+        "count": 47
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 86,
+        "chapterName": "كتاب الحدود",
+        "count": 81
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 87,
+        "chapterName": "كتاب الديات",
+        "count": 55
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 88,
+        "chapterName": "كتاب استتابة المرتدين والمعاندين وقتالهم",
+        "count": 21
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 89,
+        "chapterName": "كتاب الإكراه",
+        "count": 13
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 90,
+        "chapterName": "كتاب الحيل",
+        "count": 28
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 91,
+        "chapterName": "كتاب التعبير",
+        "count": 61
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 92,
+        "chapterName": "كتاب الفتن",
+        "count": 83
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 93,
+        "chapterName": "كتاب الأحكام",
+        "count": 84
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 94,
+        "chapterName": "كتاب التمنى",
+        "count": 20
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 95,
+        "chapterName": "كتاب أخبار الآحاد",
+        "count": 21
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 96,
+        "chapterName": "كتاب الاعتصام بالكتاب والسنة",
+        "count": 97
+      },
+      {
+        "bookId": "bukhari",
+        "chapterId": 97,
+        "chapterName": "كتاب التوحيد",
+        "count": 188
+      }
+    ],
+    "muslim": [
+      {
+        "bookId": "muslim",
+        "chapterId": 0,
+        "chapterName": "المقدمة",
+        "count": 91
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 1,
+        "chapterName": "كتاب الإيمان",
+        "count": 439
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 2,
+        "chapterName": "كتاب الطهارة",
+        "count": 144
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 3,
+        "chapterName": "كتاب الحيض",
+        "count": 157
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 4,
+        "chapterName": "كتاب الصلاة",
+        "count": 322
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 5,
+        "chapterName": "كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+        "count": 402
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 6,
+        "chapterName": "كتاب صلاة المسافرين وقصرها",
+        "count": 378
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 7,
+        "chapterName": "كتاب الجمعة",
+        "count": 93
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 8,
+        "chapterName": "كتاب صلاة العيدين",
+        "count": 24
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 9,
+        "chapterName": "كتاب صلاة الاستسقاء‏",
+        "count": 19
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 10,
+        "chapterName": "كتاب الكسوف",
+        "count": 31
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 11,
+        "chapterName": "كتاب الجنائز",
+        "count": 138
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 12,
+        "chapterName": "كتاب الزكاة",
+        "count": 231
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 13,
+        "chapterName": "كتاب الصيام",
+        "count": 285
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 14,
+        "chapterName": "كتاب الاعتكاف",
+        "count": 11
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 15,
+        "chapterName": "كتاب الحج",
+        "count": 601
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 16,
+        "chapterName": "كتاب النكاح",
+        "count": 169
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 17,
+        "chapterName": "كتاب الرضاع",
+        "count": 84
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 18,
+        "chapterName": "كتاب الطلاق",
+        "count": 87
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 19,
+        "chapterName": "كتاب اللعان",
+        "count": 27
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 20,
+        "chapterName": "كتاب العتق",
+        "count": 30
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 21,
+        "chapterName": "كتاب البيوع",
+        "count": 160
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 22,
+        "chapterName": "كتاب المساقاة",
+        "count": 178
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 23,
+        "chapterName": "كتاب الفرائض",
+        "count": 23
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 24,
+        "chapterName": "كتاب الهبات",
+        "count": 41
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 25,
+        "chapterName": "كتاب الوصية",
+        "count": 31
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 26,
+        "chapterName": "كتاب النذر",
+        "count": 18
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 27,
+        "chapterName": "كتاب الأيمان",
+        "count": 88
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 28,
+        "chapterName": "كتاب القسامة والمحاربين والقصاص والديات",
+        "count": 56
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 29,
+        "chapterName": "كتاب الحدود",
+        "count": 72
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 30,
+        "chapterName": "كتاب الأقضية",
+        "count": 28
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 31,
+        "chapterName": "كتاب اللقطة",
+        "count": 20
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 32,
+        "chapterName": "كتاب الجهاد والسير",
+        "count": 182
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 33,
+        "chapterName": "كتاب الإمارة",
+        "count": 266
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 34,
+        "chapterName": "كتاب الصيد والذبائح وما يؤكل من الحيوان",
+        "count": 92
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 35,
+        "chapterName": "كتاب الأضاحى",
+        "count": 62
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 36,
+        "chapterName": "كتاب الأشربة",
+        "count": 257
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 37,
+        "chapterName": "كتاب اللباس والزينة",
+        "count": 193
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 38,
+        "chapterName": "كتاب الآداب",
+        "count": 60
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 39,
+        "chapterName": "كتاب السلام",
+        "count": 212
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 40,
+        "chapterName": "كتاب الألفاظ من الأدب وغيرها",
+        "count": 23
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 41,
+        "chapterName": "كتاب الشعر",
+        "count": 11
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 42,
+        "chapterName": "كتاب الرؤيا",
+        "count": 41
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 43,
+        "chapterName": "كتاب الفضائل",
+        "count": 226
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 44,
+        "chapterName": "كتاب فضائل الصحابة رضى الله تعالى عنهم",
+        "count": 328
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 45,
+        "chapterName": "كتاب البر والصلة والآداب",
+        "count": 217
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 46,
+        "chapterName": "كتاب القدر",
+        "count": 52
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 47,
+        "chapterName": "كتاب العلم",
+        "count": 30
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 48,
+        "chapterName": "كتاب الذكر والدعاء والتوبة والاستغفار",
+        "count": 127
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 49,
+        "chapterName": "كتاب الرقاق",
+        "count": 15
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 50,
+        "chapterName": "كتاب التوبة",
+        "count": 68
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 51,
+        "chapterName": "كتاب صفات المنافقين وأحكامهم",
+        "count": 21
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 52,
+        "chapterName": "كتاب صفة القيامة والجنة والنار",
+        "count": 82
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 53,
+        "chapterName": "كتاب الجنة وصفة نعيمها وأهلها",
+        "count": 103
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 54,
+        "chapterName": "كتاب الفتن وأشراط الساعة",
+        "count": 177
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 55,
+        "chapterName": "كتاب الزهد والرقائق",
+        "count": 96
+      },
+      {
+        "bookId": "muslim",
+        "chapterId": 56,
+        "chapterName": "كتاب التفسير",
+        "count": 40
+      }
+    ],
+    "ibnmajah": [
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 0,
+        "chapterName": "كتاب المقدمة",
+        "count": 266
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 1,
+        "chapterName": "كتاب الطهارة وسننها",
+        "count": 400
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 2,
+        "chapterName": "كتاب الصلاة",
+        "count": 39
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 3,
+        "chapterName": "كتاب الأذان والسنة فيها",
+        "count": 29
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 4,
+        "chapterName": "كتاب المساجد والجماعات",
+        "count": 68
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 5,
+        "chapterName": "كتاب إقامة الصلاة والسنة فيها",
+        "count": 630
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 6,
+        "chapterName": "كتاب الجنائز",
+        "count": 205
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 7,
+        "chapterName": "كتاب الصيام",
+        "count": 145
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 8,
+        "chapterName": "كتاب الزكاة",
+        "count": 62
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 9,
+        "chapterName": "كتاب النكاح",
+        "count": 171
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 10,
+        "chapterName": "كتاب الطلاق",
+        "count": 74
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 11,
+        "chapterName": "كتاب الكفارات",
+        "count": 47
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 12,
+        "chapterName": "كتاب التجارات",
+        "count": 171
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 13,
+        "chapterName": "كتاب الأحكام",
+        "count": 67
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 14,
+        "chapterName": "كتاب الهبات",
+        "count": 15
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 15,
+        "chapterName": "كتاب الصدقات",
+        "count": 46
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 16,
+        "chapterName": "كتاب الرهون",
+        "count": 57
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 17,
+        "chapterName": "كتاب الشفعة",
+        "count": 11
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 18,
+        "chapterName": "كتاب اللقطة",
+        "count": 10
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 19,
+        "chapterName": "كتاب العتق",
+        "count": 21
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 20,
+        "chapterName": "كتاب الحدود",
+        "count": 82
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 21,
+        "chapterName": "كتاب الديات",
+        "count": 80
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 22,
+        "chapterName": "كتاب الوصايا",
+        "count": 24
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 23,
+        "chapterName": "كتاب الفرائض",
+        "count": 34
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 24,
+        "chapterName": "كتاب الجهاد",
+        "count": 129
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 25,
+        "chapterName": "كتاب المناسك",
+        "count": 238
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 26,
+        "chapterName": "كتاب الأضاحي",
+        "count": 42
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 27,
+        "chapterName": "كتاب الذبائح",
+        "count": 38
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 28,
+        "chapterName": "كتاب الصيد",
+        "count": 51
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 29,
+        "chapterName": "كتاب الأطعمة",
+        "count": 120
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 30,
+        "chapterName": "كتاب الأشربة",
+        "count": 65
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 31,
+        "chapterName": "كتاب الطب",
+        "count": 114
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 32,
+        "chapterName": "كتاب اللباس",
+        "count": 107
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 33,
+        "chapterName": "كتاب الأدب",
+        "count": 170
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 34,
+        "chapterName": "كتاب الدعاء",
+        "count": 66
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 35,
+        "chapterName": "كتاب تعبير الرؤيا",
+        "count": 34
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 36,
+        "chapterName": "كتاب الفتن",
+        "count": 175
+      },
+      {
+        "bookId": "ibnmajah",
+        "chapterId": 37,
+        "chapterName": "كتاب الزهد",
+        "count": 242
+      }
+    ]
+  },
+  "topNarrators": [
+    {
+      "name": "أبو هريرة رضي الله عنه",
+      "count": 2650
+    },
+    {
+      "name": "غير محدد في السند المقتضب",
+      "count": 1665
+    },
+    {
+      "name": "عائشة أم المؤمنين رضي الله عنها",
+      "count": 1575
+    },
+    {
+      "name": "أنس بن مالك رضي الله عنه",
+      "count": 1451
+    },
+    {
+      "name": "جابر بن عبد الله رضي الله عنهما",
+      "count": 928
+    },
+    {
+      "name": "عبد الله بن عمر رضي الله عنهما",
+      "count": 854
+    },
+    {
+      "name": "عبد الله بن عباس رضي الله عنهما",
+      "count": 717
+    },
+    {
+      "name": "أثر / قول في المصدر (غير مرفوع)",
+      "count": 677
+    },
+    {
+      "name": "أبو سعيد الخدري رضي الله عنه",
+      "count": 327
+    },
+    {
+      "name": "ابن عباس  رضى الله",
+      "count": 254
+    },
+    {
+      "name": "عبد الله",
+      "count": 249
+    },
+    {
+      "name": "أبو موسى الأشعري رضي الله عنه",
+      "count": 244
+    },
+    {
+      "name": "علي بن أبي طالب رضي الله عنه",
+      "count": 219
+    },
+    {
+      "name": "ابن عمر  رضى الله",
+      "count": 210
+    },
+    {
+      "name": "البراء بن عازب رضي الله عنه",
+      "count": 149
+    },
+    {
+      "name": "أبو بكر الصديق رضي الله عنه",
+      "count": 137
+    },
+    {
+      "name": "عبد الله بن عمر  رضى الله",
+      "count": 118
+    },
+    {
+      "name": "عبد الله بن مسعود رضي الله عنه",
+      "count": 106
+    },
+    {
+      "name": "حذيفة بن اليمان رضي الله عنه",
+      "count": 98
+    },
+    {
+      "name": "عبد الله  رضى الله",
+      "count": 93
+    },
+    {
+      "name": "رجلا",
+      "count": 89
+    },
+    {
+      "name": "أبو قتادة الأنصاري رضي الله عنه",
+      "count": 89
+    },
+    {
+      "name": "أم سلمة رضي الله عنها",
+      "count": 87
+    },
+    {
+      "name": "أبو ذر الغفاري رضي الله عنه",
+      "count": 87
+    },
+    {
+      "name": "عثمان بن عفان رضي الله عنه",
+      "count": 86
+    },
+    {
+      "name": "عائشة أم المؤمنين رضي الله عنها (موقوف/أثر)",
+      "count": 78
+    },
+    {
+      "name": "أنس بن مالك رضي الله عنه (موقوف/أثر)",
+      "count": 74
+    },
+    {
+      "name": "عبد الله بن عمرو",
+      "count": 67
+    },
+    {
+      "name": "جرير بن عبد الله البجلي رضي الله عنه",
+      "count": 62
+    },
+    {
+      "name": "أبا هريرة",
+      "count": 55
+    },
+    {
+      "name": "بريدة بن الحصيب الأسلمي رضي الله عنه",
+      "count": 52
+    },
+    {
+      "name": "طلحة بن عبيد الله رضي الله عنه",
+      "count": 49
+    },
+    {
+      "name": "أبو أمامة الباهلي رضي الله عنه",
+      "count": 48
+    },
+    {
+      "name": "عمر بن الخطاب رضي الله عنه",
+      "count": 45
+    },
+    {
+      "name": "سهل بن سعد",
+      "count": 45
+    },
+    {
+      "name": "أبي سعيد الخدري  رضى الله",
+      "count": 45
+    },
+    {
+      "name": "معاوية بن أبي سفيان رضي الله عنهما",
+      "count": 42
+    },
+    {
+      "name": "المغيرة بن شعبة",
+      "count": 38
+    },
+    {
+      "name": "جندب بن عبد الله رضي الله عنه",
+      "count": 38
+    },
+    {
+      "name": "الزبير بن العوام رضي الله عنه",
+      "count": 37
+    },
+    {
+      "name": "الزهري",
+      "count": 37
+    },
+    {
+      "name": "عبادة بن الصامت",
+      "count": 37
+    },
+    {
+      "name": "عبد الله بن عمرو بن العاص رضي الله عنهما",
+      "count": 36
+    },
+    {
+      "name": "عمر",
+      "count": 36
+    },
+    {
+      "name": "جابر بن عبد الله رضي الله عنهما (موقوف/أثر)",
+      "count": 35
+    },
+    {
+      "name": "عمر بن الخطاب",
+      "count": 34
+    },
+    {
+      "name": "عائشة  رضى الله",
+      "count": 34
+    },
+    {
+      "name": "عمران بن حصين رضي الله عنه",
+      "count": 31
+    },
+    {
+      "name": "أبو مسعود البدري رضي الله عنه",
+      "count": 30
+    },
+    {
+      "name": "حفصة أم المؤمنين رضي الله عنها",
+      "count": 30
+    },
+    {
+      "name": "عدي بن حاتم رضي الله عنه",
+      "count": 29
+    },
+    {
+      "name": "أبو الدرداء رضي الله عنه",
+      "count": 29
+    },
+    {
+      "name": "أبو هريرة رضي الله عنه (موقوف/أثر)",
+      "count": 28
+    },
+    {
+      "name": "أبي",
+      "count": 28
+    },
+    {
+      "name": "رافع بن خديج",
+      "count": 28
+    },
+    {
+      "name": "البراء بن عازب",
+      "count": 28
+    },
+    {
+      "name": "أم سلمة",
+      "count": 27
+    },
+    {
+      "name": "النعمان بن بشير",
+      "count": 27
+    },
+    {
+      "name": "أبيه  رضى الله",
+      "count": 27
+    },
+    {
+      "name": "أسامة بن زيد",
+      "count": 26
+    },
+    {
+      "name": "زيد بن خالد الجهني رضي الله عنه",
+      "count": 25
+    },
+    {
+      "name": "عمه",
+      "count": 25
+    },
+    {
+      "name": "ابن شهاب",
+      "count": 25
+    },
+    {
+      "name": "سهل بن سعد الساعدي",
+      "count": 25
+    },
+    {
+      "name": "أبا سعيد الخدري",
+      "count": 25
+    },
+    {
+      "name": "زيد بن ثابت رضي الله عنه",
+      "count": 25
+    },
+    {
+      "name": "أبو أيوب الأنصاري رضي الله عنه",
+      "count": 25
+    },
+    {
+      "name": "أسامة بن زيد رضي الله عنهما",
+      "count": 24
+    },
+    {
+      "name": "أباه",
+      "count": 24
+    },
+    {
+      "name": "نافع",
+      "count": 24
+    },
+    {
+      "name": "أبو حميد الساعدي رضي الله عنه",
+      "count": 24
+    },
+    {
+      "name": "عقبة بن عامر",
+      "count": 24
+    },
+    {
+      "name": "عمران بن حصين",
+      "count": 24
+    },
+    {
+      "name": "أم عطية",
+      "count": 23
+    },
+    {
+      "name": "ميمونة",
+      "count": 23
+    },
+    {
+      "name": "عمر  رضى الله",
+      "count": 23
+    },
+    {
+      "name": "عبد الله بن عمرو بن العاص",
+      "count": 22
+    },
+    {
+      "name": "أسماء",
+      "count": 21
+    },
+    {
+      "name": "عبد",
+      "count": 21
+    },
+    {
+      "name": "البراء",
+      "count": 21
+    }
+  ],
+  "topics": [
+    {
+      "name": "الصلاة والجنائز",
+      "count": 3335
+    },
+    {
+      "name": "السيرة والمغازي والفضائل",
+      "count": 2703
+    },
+    {
+      "name": "الآداب والأخلاق والطب",
+      "count": 2066
+    },
+    {
+      "name": "أبواب عامة",
+      "count": 1571
+    },
+    {
+      "name": "المعاملات والأحكام والفرائض",
+      "count": 1515
+    },
+    {
+      "name": "الحج والأضاحي والذبائح",
+      "count": 1317
+    },
+    {
+      "name": "الرقاق والفتن والآخرة",
+      "count": 1290
+    },
+    {
+      "name": "العلم والسنة",
+      "count": 1219
+    },
+    {
+      "name": "العقيدة والإيمان والتوحيد",
+      "count": 1058
+    },
+    {
+      "name": "الطهارة والوضوء",
+      "count": 911
+    },
+    {
+      "name": "الأسرة والنكاح",
+      "count": 890
+    },
+    {
+      "name": "القرآن الكريم والتفسير",
+      "count": 639
+    },
+    {
+      "name": "الصيام والاعتكاف",
+      "count": 606
+    },
+    {
+      "name": "الحدود والديات والأيمان",
+      "count": 529
+    },
+    {
+      "name": "الزكاة والصدقات",
+      "count": 405
+    },
+    {
+      "name": "الذكر والدعاء والتوبة",
+      "count": 367
+    }
+  ],
+  "grades": [
+    {
+      "name": "صحيح (في صحيح مسلم)",
+      "count": 7058
+    },
+    {
+      "name": "صحيح (في صحيح البخاري)",
+      "count": 6756
+    },
+    {
+      "name": "صحيح",
+      "count": 2863
+    },
+    {
+      "name": "أثر / قول في المصدر (غير مرفوع)",
+      "count": 922
+    },
+    {
+      "name": "ضعيف",
+      "count": 690
+    },
+    {
+      "name": "حسن",
+      "count": 522
+    },
+    {
+      "name": "Very Daif (الشيخ محمد ناصر الدين الألباني)",
+      "count": 109
+    },
+    {
+      "name": "موضوع",
+      "count": 44
+    },
+    {
+      "name": "Sahih Hadith (الشيخ محمد ناصر الدين الألباني)",
+      "count": 31
+    },
+    {
+      "name": "Daif Isnaad (الشيخ محمد ناصر الدين الألباني)",
+      "count": 29
+    },
+    {
+      "name": "منكر (الشيخ محمد ناصر الدين الألباني)",
+      "count": 15
+    },
+    {
+      "name": "غير موثقة الدرجة في نسخة المصدر",
+      "count": 8
+    },
+    {
+      "name": "Sahih Isnaad (الشيخ محمد ناصر الدين الألباني)",
+      "count": 8
+    },
+    {
+      "name": "Shadh (الشيخ محمد ناصر الدين الألباني)",
+      "count": 5
+    },
+    {
+      "name": "Sahih Mutawatir (الشيخ محمد ناصر الدين الألباني)",
+      "count": 5
+    },
+    {
+      "name": "Hasan Isnaad (الشيخ محمد ناصر الدين الألباني)",
+      "count": 4
+    },
+    {
+      "name": "Very Daif Isnaad (الشيخ محمد ناصر الدين الألباني)",
+      "count": 4
+    },
+    {
+      "name": "Munkar Daif (الشيخ محمد ناصر الدين الألباني)",
+      "count": 2
+    },
+    {
+      "name": "Daif Munkar (الشيخ محمد ناصر الدين الألباني)",
+      "count": 1
+    },
+    {
+      "name": "Batil (محمد فؤاد عبد الباقي)",
+      "count": 1
+    },
+    {
+      "name": "Isnaad Malool (الشيخ محمد ناصر الدين الألباني)",
+      "count": 1
+    },
+    {
+      "name": "Sahih Muquf (الشيخ محمد ناصر الدين الألباني)",
+      "count": 1
+    },
+    {
+      "name": "Sahih - Agreed Upon",
+      "count": 1
+    },
+    {
+      "name": "Sanad Daif (الشيخ محمد ناصر الدين الألباني)",
+      "count": 1
+    }
+  ]
+}

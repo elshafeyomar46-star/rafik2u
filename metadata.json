@@ -1,0 +1,6 @@
+{
+  "name": "رِفْق – رفيق الحفظ والتلاوة",
+  "description": "تطبيق عربي لمراجعة وحفظ القرآن الكريم وتعلم أحكام التجويد والتدريب على التلاوة والأحاديث والأدعية اليومية.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
